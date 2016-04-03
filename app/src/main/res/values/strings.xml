@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Impilo</string>
+
+    <string name="title_section1">Blood Bank</string>
+    <string name="title_section2">Maps</string>
+    <string name="title_section3">About</string>
+    <string name="drawer_open">Open navigation Drawer</string>
+    <string name="drawer_close">Close navigation Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="desc">bankico</string>
+    <string name="action_example">Example action</string>
+    <string name="terms1">This application is a prototype. the application is still under development and we are still working on it. The applications is under observation . We will be very grateful if the users report any bug (if found) at akx.sonu@gmail.com </string>
+    <string name="terms2">Impilo does not garuntee that Blood bank will be able to provide the requested blood group when they are called upon. The blood availability shown by the application is the last updated information of the blood banks. Impilo developers is not liable is the blood bank does not update the availability of blood to ower server. We are not responsible for any dispute or losses or harm caused to the blood recipient as we are not at all involved any blood transfer.Impilo does not arrange for blood. It merely provides the relevant information to those who are in need of blood. We urge not to make false blood request.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Impilo</string>
+    <string name="label1">We care for our user. Your information will help us serve you better. Please sign in.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_blood_bank">Map</string>
+    <string name="place_type">bank</string>
+    <string name="place_type_name">blood bank</string>
+    <string name="title_activity_blood_request_form">BloodRequestForm</string>
+    <string name="google_maps_key">AIzaSyB8qbsPx_1cq28X392cyplW-kMFd1TF10o</string>
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

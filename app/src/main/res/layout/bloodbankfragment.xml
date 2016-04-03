@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bloodbankfragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffffff"
+    >
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:hint="  Search"
+        android:inputType="text"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/ImageViewsearch"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_below="@+id/autoCompleteTextView1"
+        android:id="@+id/bbflistBank"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+
+        android:layout_gravity="start"/>
+
+    <ImageView
+        android:id="@+id/ImageViewsearch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|right"
+        android:background="@color/theme_red"
+        android:src="@drawable/searchblood"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
