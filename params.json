@@ -1,0 +1,6 @@
+{
+  "name": "Impilo",
+  "tagline": "Now get your nearby blood banks into your pocket!!",
+  "body": "This is an android application project, which list all the blood bank registered to our server. Using the application users can check the blood availability and request for the blood of required group. The application also supports the google map integrated with pointing all the nearby blood banks and helps in navigation.\r\n\r\nThe blood bank software is distributed to the blood bank owner, for updating their stock to our server so the the blood availability is visible to user through this android application.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
