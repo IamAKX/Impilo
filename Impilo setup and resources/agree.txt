@@ -1,0 +1,19 @@
+Impilo End User License Agreement
+
+Please read this agreement carefully before using Impilo. By 
+installing and using Impilo, you acknowledge that you have read this 
+agreement, understand it and agree to be bound by its terms and conditions. 
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications and redistribute it
+freely, subject to the following restrictions:
+
+1. The Software is provided "AS IS" without warranty of any kind.
+   In no event shall the author be held liable for any damages arising from the
+   use of this software.
+
+2. No portion of the Impilo binaries may be disassembled, reverse engineered, decompiled, modified or altered. 
+
+3. No person or company may distribute separate parts of the package.
+
+
+Copyright (C) 2016 Akash Application. All rights reserved.
