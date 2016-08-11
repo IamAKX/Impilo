@@ -168,15 +168,15 @@ public class BloodRequestForm extends ActionBarActivity {
 
 
 
-        if (new MainActivity().userName.getText().toString().equalsIgnoreCase("USER NAME")) {
-            AlertDialog.Builder builder =
-                    new AlertDialog.Builder(this, R.style.AppCompatAlertDialogStyle);
-
-            builder.setMessage("You have to Log In with your Google Account for sending a blood request.");
-            builder.setPositiveButton("OK", null);
-
-            builder.show();
-        } else {
+//        if (new MainActivity().userName.getText().toString().equalsIgnoreCase("USER NAME")) {
+//            AlertDialog.Builder builder =
+//                    new AlertDialog.Builder(this, R.style.AppCompatAlertDialogStyle);
+//
+//            builder.setMessage("You have to Log In with your Google Account for sending a blood request.");
+//            builder.setPositiveButton("OK", null);
+//
+//            builder.show();
+//        } else {
 
             String param = "";
             try {
@@ -209,7 +209,7 @@ public class BloodRequestForm extends ActionBarActivity {
 
 
             //CONNECTING TO SERVER.
-            HttpConnection http = new HttpConnection("http://pocketnurse.16mb.com/pn/bloodrequest.php");
+            HttpConnection http = new HttpConnection(ServerPath.SERVER_URL+"bloodrequest.php");
             http.sendPost(param);
             while(http.serverReply().trim().equals(null))
             {
@@ -222,7 +222,7 @@ public class BloodRequestForm extends ActionBarActivity {
             contact.setText("");
             message.setText("");
             finish();
-        }
+        //}
     }
 
 

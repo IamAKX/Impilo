@@ -27,7 +27,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
     private GoogleMap mGoogleMap;
-    private static final String GOOGLE_PLACE_API_KEY="AIzaSyDx0YoC9XQHeNVGpBR_HHRf6HQ5iCWejGc";
+    private static final String GOOGLE_PLACE_API_KEY="AIzaSyB8qbsPx_1cq28X392cyplW-kMFd1TF10o";
     HomeFragment hf=new HomeFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {

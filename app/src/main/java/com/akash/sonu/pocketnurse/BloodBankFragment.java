@@ -277,7 +277,7 @@ public class BloodBankFragment extends Fragment {
 
 
 		//CONNECTING TO SERVER.
-		final HttpConnection http=new HttpConnection("http://pocketnurse.16mb.com/pn/search.php");
+		final HttpConnection http=new HttpConnection(ServerPath.SERVER_URL+"search.php");
 
 
 		http.sendPost(param);
@@ -317,7 +317,7 @@ public class BloodBankFragment extends Fragment {
 
 
 		//CONNECTING TO SERVER.
-		final HttpConnection http=new HttpConnection("http://pocketnurse.16mb.com/pn/setBloodValue.php");
+		final HttpConnection http=new HttpConnection(ServerPath.SERVER_URL+"setBloodValue.php");
 
 
 		http.sendPost(param);

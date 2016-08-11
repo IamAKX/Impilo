@@ -191,9 +191,9 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
 
             //CONNECTING TO SERVER.
-            HttpConnection http=new HttpConnection("http://pocketnurse.16mb.com/pn/login.php");
+            HttpConnection http=new HttpConnection(ServerPath.SERVER_URL+"login.php");
             http.sendPost(param);
-           // Toast.makeText(getBaseContext(),"name = "+personName+"\nprofile="+personGooglePlusProfile,Toast.LENGTH_LONG).show();
+            Toast.makeText(getBaseContext(),"name = "+personName+"\nprofile="+personGooglePlusProfile,Toast.LENGTH_LONG).show();
 
 
         }

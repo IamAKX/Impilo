@@ -22,7 +22,7 @@ public class BloodbankList {
         SharedPreferences.Editor sEdit = sp.edit();
         int c=0;
         String param = "";
-        HttpConnection http1 = new HttpConnection("http://pocketnurse.16mb.com/pn/getBankList.php");
+        HttpConnection http1 = new HttpConnection(ServerPath.SERVER_URL+"getBankList.php");
         http1.text="";
         try {
             param = URLEncoder.encode("type", "UTF-8")

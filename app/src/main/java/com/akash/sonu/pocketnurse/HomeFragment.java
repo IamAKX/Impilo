@@ -309,7 +309,7 @@ public class HomeFragment extends Fragment  {
 
 
 		//CONNECTING TO SERVER.
-		final HttpConnection http=new HttpConnection("http://pocketnurse.16mb.com/pn/getBanks.php");
+		final HttpConnection http=new HttpConnection(ServerPath.SERVER_URL+"getBanks.php");
 
 
 		http.sendPost(param);
@@ -344,7 +344,7 @@ public class HomeFragment extends Fragment  {
 
 
 		//CONNECTING TO SERVER.
-		final HttpConnection http=new HttpConnection("http://pocketnurse.16mb.com/pn/setBloodValue.php");
+		final HttpConnection http=new HttpConnection(ServerPath.SERVER_URL+"setBloodValue.php");
 
 
 		http.sendPost(param);
